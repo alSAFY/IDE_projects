@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    background-color:darkgray ;
+    height: 60px;
+}
+.clear{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.centered{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.logo{
+    width: 20%;
+   height: 60px;
+}
+a{
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.links{
+ 
+    padding-left: 400px;
+    margin-top: 20px;
+}
+header{
+    background-color: darkgray;
+    height: 700px;
+}
+.banner{
+    padding-top: 50px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    line-height: 150px;
+}
+.big{
+    font-size: 40px;
+}
+h1{
+    font-size: 80px;
+}
+.half{
+    width:45%;
+    margin-left:5%;
+}
+.margin{
+    margin-top: 100px;
+}
+.blue{
+    color: rgb(52, 18, 243);
+}
+.btn{
+    color: #fff;
+    background-color: deepskyblue;
+    height: 40px;
+    width: 150px;
+}
+.box{
+    width:20%;
+    border: 1px solid rgb(228, 233, 238);
+    margin-right: 15px;
+    height: 200px;
+    box-shadow:2px 2px 2px dimgray;
+}
+p{
+    color: dimgray;
+    line-height: 50px;
+}
+b{
+    color: #000;
+}
+input{
+    height: 35px;
+    width: 300px;
+    border: none;
+}
+.form{
+    background-color: gainsboro;
+    height: 719.09px;
+}
+form{
+    width: 80%;
+    margin: 50px auto;
+}
+.box h3{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+#last{
+    margin-right: 0;
+}
