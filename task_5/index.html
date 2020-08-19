@@ -4,23 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 DEMO</title>
-    <meta name="discription" content="">
+    <meta name="discription" content=" html 5 course">
     <meta name="author" content="safy">
-    <meta name="keywords" content=""> 
+    <meta name="keywords" content="html, html5, frontend,web design"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Roboto:ital@1&display=swap"
+        rel="stylesheet"> 
+        <link rel="stylesheet" href="vendor/fontawsome/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar bg-dark">
         <div class="nav-items">
-            <div class="nav-brand"><a href="#">HTML5 DEMO</a></div>
+            <div class="nav-brand"><a href="#" class="text-center heading  prim-color">HTML5 DEMO</a></div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portofolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <section id="home" class="banner">
+        <div class="banner-text text-center text-white container">
+            <div class="subhead">welcome to our studio!</div>
+            <hr>
+            <div class="superhead">it's nice to meet you</div>
+            <button class="text-white">tell me more</button>
+        </div>
+    </section>
+    <section id="services" class="services container">
+        <div class="text-center">
+            <h2 class="heading"> services</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, veniam.</p>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+
+                <div class="icon">
+                    <i class="fa fa-cart-plus fa-5x bg-prim" aria-hidden="true"></i>
+                </div>
+                <h3>e-commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum blanditiis optio cum earum rem non ipsam veritatis autem nam.</p>
+            </div>
+            <div class="col text-center">
+                <div class="icon ">
+                    <i class="fas fa-laptop fa-5x bg-prim"></i>
+                </div>
+                <h3>responsive design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sint harum blanditiis optio cum earum rem non ipsam veritatis autem nam.</p>
+            </div>
+            <div class="col text-center">
+                <div class="icon">
+                    <i class="fa fa-lock fa-5x bg-prim" aria-hidden="true"></i>
+                </div>
+                <h3>web security</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sint harum blanditiis optio cum earum rem non ipsam veritatis autem nam.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about bg-dark">
+        <div class="container text-white text-center">
+            <h2 class="heading">we've got what you need</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Corporis alias et reiciendis aut? 
+             Explicabo nobis hic in atque beatae debitis illo maiores,
+              assumenda numquam earum dicta amet reiciendis adipisci praesentium architecto veritatis sunt labore?
+               Vero optio harum asperiores error similique fuga maxime dolorem, provident deleniti unde nulla,
+             laborum nemo quod.</p>
+             <button class="bg-prim">get started</button>
+        </div>
+    </section>
+    <section id="portofolio">
+        <div class="text-center  container">
+            <h2 class="heading">portfolio</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, enim.</p>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="images/5.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="images/6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="text-center container">
+            <h2 class="heading">let'sget in touch</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Ducimus dolorem magni minima nesciunt nisi architecto,
+                pariatur, voluptatum nobis molestias nemo, corporis velit eaque aliquid quas?
+            </p>
+        </div>
+        <div class="row container">
+            <div class="icon col text-center">
+                <i class="fa fa-tty fa-5x" aria-hidden="true"></i>
+                <a href="#">+(12) 345 6789</a>
+            </div>
+            <div class="icon col text-center">
+                <i class="fa fa-envelope fa-5x prim-color" aria-hidden="true"></i>
+                <a href="#">html5demo@contact.com</a>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="text-center text-white">copyright <span class="prim-color">&copy;</span> all rights reserved</p>
+            <p class="text-center text-white">made with <span class="prim-color">&hearts;</span></p>
+        </div>
+    </footer>
 </body>
 </html>

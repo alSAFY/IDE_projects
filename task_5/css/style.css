@@ -1,0 +1,175 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    line-height: 1.7rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+.bg-dark {
+    background-color: #2f2f2f;
+}
+.text-center{
+    text-align: center;
+    margin: 0 auto;
+}
+.text-white {
+    color: #fff;
+}
+
+.prim-color {
+    color: #fed136;
+}
+.bg-prim {
+    background-color: #fed136;
+}
+
+.heading {
+    font-size: 2rem;
+}
+.nav-brand,
+.nav-links {
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar .nav-items .nav-links ul li {
+    display: inline-block;
+    padding-left: 1rem;
+}
+.nav-bar .nav-items .nav-links ul li a:hover{
+    color: #fed136;
+}
+.banner {
+    height: 90vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+
+}
+.banner-text {
+    padding-top: 9rem;
+    opacity: 1;
+}
+.subhead {
+    font-size:2rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #fff;
+    word-spacing: .5rem;
+    font-style: italic;
+    font-weight: 500;
+}
+hr {
+    width: 3rem;
+    border: .125rem solid #fed136;
+    margin: 2rem auto;
+}
+.superhead {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2rem 0;
+    word-spacing: .75rem;
+    text-shadow: 1px 1px 1px #fff;
+}
+.banner button,
+.about button {
+    background-color: #fed136;
+    width: 15%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.banner button:hover {
+    background-color: #2f2f2f;
+    color: #fed136;
+}
+.services .row {
+    display: flex;
+   margin-top: 3.125rem;
+}
+.services {
+    margin-top: 6rem;
+}
+.services h2 {
+    font-size: 3rem;
+}
+.services .row .col {
+    padding: 20px;
+}
+.services .row .col .icon i {
+    padding: 2.25rem;
+    border-radius: 50%;
+}
+.services .row .col h3 {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.about {
+    padding:5.5rem ;
+    margin-top: 1.5rem;
+}
+.about button {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    text-transform: capitalize;
+}
+#portofolio,
+#contact {
+    margin-top: 5rem;
+}
+#portofolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+#portofolio .row .col {
+    width: 50%;
+}
+#portofolio .row .col img {
+    width: 100%;
+    height: 100%;
+}
+#contact .row .col a {
+    color: #000;
+    display: block;
+}
+#contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+#contact .row .icon i{
+    margin: 1rem auto;
+}
+footer {
+    background-color: #2f2f2f;
+    margin-top: 2rem;
+}
+footer .container {
+    padding: 1.5rem 0; 
+}
