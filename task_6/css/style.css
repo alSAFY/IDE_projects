@@ -1,0 +1,316 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+.prim-color,
+.nav-bar .nav-items .nav-links ul li a:hover {
+    color: #f76d37;
+}
+.dark-bg {
+    background-color:  #252525;
+}
+.prim-bg,
+.arrow .icon i:hover,
+.banner button:hover,
+#about .row .col button:hover,
+#gallery button:hover,
+#services .container .row .box,
+#contact .row .col1 .form form input[type=submit] {
+    background-color: #f76d37;
+}
+.text-white
+/* #services .container .row .box h3,
+#services .container .row .box p */{ 
+    color: #fff;
+}
+.text-center,
+#services .container .row .box h3,
+#services .container .row .box p  {
+    text-align: center;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar {
+    width: auto;
+    height: 20hv;
+    
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.nav-bar .nav-items .nav-links ul li a{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+}
+.nav-bar .nav-items .nav-brand img {
+    padding-left: 1rem;
+}
+.banner {
+    height: 87vh;
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .container .banner-text {
+    width: 50%;
+    padding-top: 8rem;
+}
+h1 {
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+.banner h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.75rem;
+    font-weight: lighter;
+}
+.banner button,
+#about .row .col button,
+#gallery button {
+    font-size: 1.25rem;
+    width: 10rem;
+    height: 3.5rem;
+    border: none;
+    margin: 1.25rem auto;
+    text-transform: capitalize;
+}
+.arrow .icon i{
+    height: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: .5rem;
+    color: #2f2f2f;
+    background-color: #fff;
+}
+.arrow {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.arrow .icon {
+    width: 3rem;
+}
+#about {
+    margin-top: 8rem;
+}
+#about .row {
+    display: flex;
+}
+#about .row .col {
+    width: 50%;
+}
+#about .row .col h2,
+#gallery .text h2,
+#services h2,
+.testimonial .header h2,
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 5rem 0;
+}
+#about .row .col p,
+#gallery .text p,
+.testimonial .header p{
+    color: #2f2f2f;
+}
+#about .row .col img,
+#gallery .row .col img {
+    width: 100%;
+    height: 100%;
+}
+#gallery {
+    margin-top: 5rem;
+}
+#gallery .row,
+#services .container .row {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gallery .row .col {
+    width: 32%;
+    margin-bottom: 2rem;
+}
+#gallery .row .col img:hover {
+    opacity: .4;
+}
+#gallery .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services {
+    height: 100vh;
+    background-image: url(../images/services-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+}
+#services .container .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#services .container .row .box {
+    height: 50vh;
+    margin-left: 1rem;
+}
+#services .container .row .box {
+    color: #fff;
+}
+#services .container .row .box:hover{
+    background-color: #fff;
+    color: #000;
+}
+#services .container .row .box img{
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.testimonial .monila {
+    border-left: 2px solid #000; 
+    border-right: 2px solid #000;
+    
+    
+    margin-top: 5rem;
+}
+.testimonial .monila h3 {
+    font-size: 2rem;
+    padding: 0 2rem ;
+    display: inline-block;
+    position: relative;
+    top: -1rem;
+}
+.clear {
+    clear: both;
+}
+#left{
+    display: inline-block;
+    width: 10%;
+    border: 1px solid #000;
+    position: relative;
+    top: -2rem;
+    left: 0;
+}
+.testimonial .monila p {
+    padding: 2rem 0 0 2rem;
+    
+
+}
+#right {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid #000;
+    position: relative;
+    top: 2.5rem;
+    bottom: 0rem;
+    left: 90%;
+    right: 0;
+}
+.testimonial .slider hr {
+width: 10%;
+border: 1rem solid #252525;
+border-radius: 1rem;
+display: inline-block;
+margin: 2rem .25rem;
+}
+#first{
+    border: 1rem solid #f76d37;
+}
+#contact .row {
+    width: 100%;
+    display: flex;
+
+}
+#contact .row .col1,
+#contact .row .col2 {
+    width:50%;
+    height: 70vh;
+}
+#contact .row .col1 {
+    background-image: url(../images/img-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact .row .col1 .form{
+    width: 80%;
+    margin: 0 auto;
+}
+#contact .row .col1 .form form input,
+#contact .row .col1 .form form textarea {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    padding-left:2rem;
+    
+}
+#contact .row .col1 .form form textarea {
+    padding-top: 2rem;
+}
+#contact .row .col1 .form form input{
+    height: 3rem;
+}
+#contact .row .col1 .form form input[type=submit] {
+    width:30%;
+    text-align: center;
+    padding-left: 0;
+    color: #fff
+}
+#contact .row .col1 .form form input[type=submit]:hover {
+    background-color: #fff;
+    color: #000;
+}
+#contact .row .col2 iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.list .row {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+.list .row .col {
+    width: 20%;
+}
+.list .row .col h3 {
+    padding: 3rem 0;
+}
+.list .row .col ul li {
+    
+    display: block;
+}
+.list .row .col ul li a:hover{
+    color: #f76d37;
+}
+footer {
+
+    height: 10vh;
+    padding-top: 1rem;
+}
