@@ -1,0 +1,328 @@
+
+@charset 'utf-8';
+/* main style */
+@font-face {
+    font-family: 'Varela Round', sans-serif;
+    src: url(../vendor/fonts/varela/VarelaRound-Regular.ttf);
+    font-family: 'Open Sans', sans-serif;
+    src: url(../vendor/fonts/opensans/OpenSans-Light.ttf);
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f8f8f8;
+}
+.sec-font{
+    font-family: 'Open Sans', sans-serif;
+}
+.prim-color {
+    color: #a5c926;
+}
+.text-black {
+    color: #111;
+}
+.bg-fix {
+    background: none;
+}
+.prim-bg {
+    background-color: #a5c926;
+}
+.white-bg {
+    background-color: #fff;
+}
+.radius {
+    border-radius: 50%;
+}
+.clear {
+    clear: both;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block !important;
+}
+a {
+    text-decoration: none;
+}
+/* navbar styles */
+header {
+    height: 90vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contacts {
+    height: 1.75rem;
+    color: #fff;
+    font-size: .7rem;
+}
+.contacts .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts .container .row .text span a ,
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+.contacts .container .row .icons a div  {
+    width: 1.5rem;
+    height:1.5rem;
+}
+.fab{
+    font-size: 1rem;
+    margin: 0 auto !important;
+}
+.contacts .container .row .icons a div:hover{
+    background-color: #98B923;
+    border: none;
+    
+}
+.navbar .container .collapse .my-2 ,
+.navbar .container .collapse .navbar-nav .nav-item .nav-link ,
+.animals .container .text div a ,
+.gallery1 .row  .box a,
+.animals .container .header .link a ,
+.animals .container .stuffed-animals-store .row .box a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px !important;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+header .navbar {
+    height: 5rem;
+    position: sticky !important;
+}
+/* banner styles */
+.banner .text {
+    width: 40%;
+    min-width: fit-content;
+    background-color: #fff;
+    height: 45vh;
+    padding: 2rem 0;
+    margin: 5rem auto !important;
+    border-radius: 1rem;
+}
+.banner .text h3 {
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.banner .text button ,
+.container .row .col-md-6 .text-center button ,
+.animals .container .stuffed-animals-store .row .box button ,
+.about .container .row button ,
+.insta .container .text-center button {
+    width: 30%;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+.container .row .col-md-6 .text-center button:focus ,
+.banner .text button:focus ,
+.showcase button:focus ,
+.about .container .row button:focus ,
+.about .container .form form input[type=email]:focus ,
+.about .container .form form input[type=submit] ,
+.insta .container .text-center button:focus {
+    border: none;
+    outline: none;
+}
+/* store style */
+.store {
+    margin-top: 10rem;
+}
+.store .row .col1 ,
+.store .row .col2 {
+    width: 40%;
+    height: 27vh;
+    background-color: #ffc12c;
+    border-radius: 1.5rem;
+}
+.store .row .col2 {
+    background-color: #FB416B;
+}
+.store .row .col1 .img ,
+.store .row .col2 .img {
+    width: 45%;
+    position: relative;
+    top: -3rem;
+}
+.store .row .col1 .img  {
+    width: 40%;
+}
+.store .row .col1 .text ,
+.store .row .col2 .text{
+    padding: 3rem 0 0 2rem;
+}
+.store .row .col1 .text button ,
+.store .row .col2 .text button {
+    width: 50%;
+    height: 2.25rem;
+    padding: 0 !important;
+}
+.store .row .col1 .img img ,
+.store .row .col2 .img img ,
+.about .container .row img {
+    width: 100%;
+}
+
+/* animals style */
+.animals {
+    margin-top: 10rem !important;
+}
+.animals .container .header .link a {
+    border-bottom: 2px solid #c2bfbf;
+    display:block;
+    float: right;
+}
+.animals .container .header .link a:hover {
+    border-bottom: 2px solid #a5c926;
+}
+.animals hr::after {
+    content: " ";
+    width: 9rem;
+    border: 1px solid #a5c926;
+    display: block;
+    position: relative;
+    top: -1px;
+    left: 0;
+}
+.animals .container .stuffed-animals-store .row .box {
+    height: 20rem;
+    border: 0px outset;
+    border-radius: 1.5rem;
+    padding: 0 !important;
+    margin-right: 2rem;
+}
+.animals .container .stuffed-animals-store .row .box:hover ,
+.store .row .col1 .text button:hover ,
+.store .row .col2 .text button:hover ,
+.showcase button:hover ,
+.about .container .row button:hover ,
+.about .container .form form input[type=submit]:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.animals .container .stuffed-animals-store .row .box img {
+    width: 60% !important;
+}
+.animals .container .stuffed-animals-store .row .box button {
+    font-size: .75rem;
+    font-weight: bold;
+    width: 35%;
+    height: 1.5rem;
+}
+/* showcase section style */
+.showcase {
+    height: 90vh;
+    background-image: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.showcase .container {
+    padding-top: 10rem;
+}
+.showcase button {
+border: none;
+width: 4rem;
+height: 4rem;
+}
+/* about section style */
+.about .container .row img {
+    border: none;
+    border-radius: 1.5rem;
+}
+.about .container .row hr {
+    width: 15%;
+    margin: 2rem auto 2rem 0;
+    border: 1px solid #a5c926;
+}
+.about .container .row p{
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #999;
+}
+.about .container .form {
+    height: 11rem;
+    border: 1p outset #fff;
+    border-radius: 1.5rem;
+}
+.about .container .form i {
+    font-size: 4rem ;
+}
+.about .container .form h3 {
+    display: inline-block;
+    margin-left: 1rem;
+}
+.about .container .form form input {
+    height: 3rem;
+    border: 2px solid #a2a2a2;
+    border-radius: 1.5rem;
+}
+.about .container .form form input[type=email]{
+    width: 65%;
+    background-color: #f8f8f8;
+    padding-left: 2rem;
+}
+
+.about .container .form form input[type=email]:hover {
+    transition: all .5s ease;
+    background-color: #fff;
+}
+.about .container .form form input[type=email]:focus{
+    border: 2px solid #a5c926;
+}
+.about .container .form form input[type=submit] {
+    width: 25%;
+    margin-left: 2rem !important;
+}
+/* instagram section style */
+.insta .header h6 {
+    font-size: 13px;
+}
+.insta .row .col-xl-2 img {
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+.insta .container .text-center button {
+    width: 15%;
+}
+/* footer style */
+footer .container div {
+    margin-top: 2rem;
+}
+ footer .container div .float {
+    float: left;
+}
+footer .container div:nth-child(2){
+padding: 0 10rem;
+} 
+footer .container div:nth-child(2) a:hover {
+    text-decoration: #fff underline;
+}
+footer .container div:nth-child(3){
+    padding: 0 !important;
+    margin: 0 !important;
+} 
+footer hr {
+    background-color: #fff;
+}
+.footer .col2 {
+    padding-left: 25rem !important;
+    padding-right: 0 !important;
+    margin-right: 0;
+}
+.footer a {
+        font-size: .7rem;
+        color: #fff;
+        text-decoration: underline;
+        padding-left: 1rem;
+    }
