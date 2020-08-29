@@ -44,14 +44,14 @@
 }
 /* banner section style */
 .banner {
-    height: 70vh;
+    height: 100vh;
 }
 .banner .container ,
 .banner .container .row ,
 .banner .container .row .col-lg-6 ,
 .showcase .container ,
-.showcase .container .row ,
-.showcase .container .row .col-lg-6 {
+.showcase .container div .row ,
+.showcase .container div .row .col-lg-6 {
     height: 100% !important;
 }
 .banner .container .row .col-lg-6 .button {
@@ -73,6 +73,38 @@
 .features i {
     border: 1px solid #e01705;
 }
+/* showcase section style */
+
+.showcase i ,
+.testimonial .card-body i {
+    width: 20%;
+    border: 1px solid #e01705;
+    border-radius: 50%;
+}
+.showcase img {
+    height: 38rem;
+}  
+
+/* testimonial style */
+
+.testimonial img {
+    width: 35%;
+    margin: auto;
+    padding: .2rem;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: relative;
+    top: -2rem;
+}
+p ,
+.testimonial .card-body h5:last-of-type {
+    opacity: .5;
+}
+.testimonial .card-body i {
+
+    position: relative;
+    bottom: -2rem;
+}
 @media (max-width : 990px) {
     .banner {
         height: 150vh;
@@ -82,3 +114,4 @@
         height: 50%;
 }
 }
+
