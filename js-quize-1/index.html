@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <button id="send" onclick="printResult(sum())">sum</button>
+    <button id="send" onclick="printResult(sub())">subtract</button>
+    <button id="send" onclick="printResult(multi())">multiply</button>
+    <button id="send" onclick="printResult(divide())">divide</button>
+    <button id="send" onclick=" printAllResult(sum(),sub(),multi(),divide())">all</button>
+    <h3>result : <span id="result"> 0</span></h3>
+</body>
+<script>
+    function sum() {
+        var n1 = parseInt(document.getElementById('num1').value) ,
+            n2 = parseInt(document.getElementById('num2').value) ;
+        return n1+n2 ;
+    }
+    function sub() {
+        var n1 = parseInt(document.getElementById('num1').value) ,
+            n2 = parseInt(document.getElementById('num2').value) ;
+        return n1-n2 ;
+    }
+    function multi() {
+        var n1 = parseInt(document.getElementById('num1').value) ,
+            n2 = parseInt(document.getElementById('num2').value) ;
+        return n1*n2 ;
+    }
+    function divide() {
+        var n1 = parseInt(document.getElementById('num1').value) ,
+            n2 = parseInt(document.getElementById('num2').value) ;
+        return n1/n2 ;
+    }
+    function printResult (result) {
+        document.getElementById('result').innerText = result ;
+    }
+    function printAllResult (result1,result2,result3,result4) {
+        document.getElementById('result').innerHTML = '<br> sum = ' + result1 + '<br> subtract  = ' + result2 + '<br> multiply = ' + result3 + '<br> divide = ' + result4  ;
+    }
+</script>
+</html>
