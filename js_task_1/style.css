@@ -1,0 +1,41 @@
+body {
+    background-color: #a8a8a8;
+}
+.app {
+    padding: 2rem 0;
+    width: 60%;
+    margin: 2rem auto;
+    border: 8px solid#fff;
+}
+.container .app input,
+.container .app button,
+.container .app h3 span {
+
+    display: block;
+    margin: 2rem auto;
+    width: 50%;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container .app input::placeholder {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container .app h3 ,
+.container .app h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.container .app h3 span {
+    padding-top: 1rem;
+    background-color: #fff;
+    color: #a8a8a8;
+}
+.container .app button {
+    background-color: #06f;
+}
