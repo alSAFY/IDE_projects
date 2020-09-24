@@ -1,0 +1,26 @@
+@charset 'utf-8' ;
+*{
+    margin: 0 !important;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+
+section ul li button ,
+section ul li button:focus {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f5e50d;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    width: 100%;
+}
+section ul li .hidden  {
+    display: none;
+    border:2px solid #000;
+    border-radius: 1rem;
+    background-color: #f5e50d !important;
+}
